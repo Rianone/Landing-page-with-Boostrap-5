@@ -130,7 +130,7 @@
 }
 
 .nav-item{
-    margin: 0rem 1rem;
+    margin: 0rem 0.4rem;
 }
 
 #services .card{
@@ -383,3 +383,9 @@ footer .social-icons a {
 }
 
 /*Media queries*/
+@media only screen and (max-width: 440px) {
+    .overlay-icons{
+        width: 20rem;
+        height: 19.3rem;
+     }
+}
